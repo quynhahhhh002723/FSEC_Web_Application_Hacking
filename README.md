@@ -111,19 +111,19 @@ This SQL code executes a query from the "products" table to retrieve information
 
 Blind SQL Injection is a type of SQL injection attack where the attacker does not directly receive any error messages or data responses from the database. Blind SQL injections can be divided into `boolean-based SQL Injection` and `time-based SQL Injection`.
 
-- **Boolean-based SQL Injection:**
+##### Boolean-based SQL Injection:
 ```sql
 SELECT * FROM users WHERE username = 'admin' AND '1'='1';
 ```
 The attacker is attempting to verify if the username 'admin' exists in the database. The injected condition '`1=1`' will always evaluate to true, but it doesn't affect the outcome of the query. Therefore, by observing the application's response, such as whether it returns data or not, the attacker can infer whether the username '`admin`' exists in the database or not, without directly seeing the database contents.
 
-- **Time-based Blind SQL Injection:**
+##### Time-based Blind SQL Injection:
 ```sql
 SELECT * FROM products WHERE category = 'Electronics' AND (SELECT CASE WHEN (1=1) THEN WAITFOR DELAY '0:0:5' ELSE WAITFOR DELAY '0:0:0' END);
 ```
 The attacker is attempting to determine if the category 'Electronics' exists in the database. By injecting a time-delay function (e.g., `WAITFOR DELAY '0:0:5'`) into the query, the attacker can measure the response time of the application. If the response time is significantly longer, it indicates that the condition `(1=1)` is true, and the category 'Electronics' likely exists.
 
-SQL injection attacks can also be classified by the method they use to inject data:
+#### SQL injection attacks can also be classified by the method they use to inject data:
 
     - SQL injection based on user input
     - SQL injection based on cookies 
