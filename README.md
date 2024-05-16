@@ -1,12 +1,20 @@
 # FSEC_Web_Application_Hacking-SQL-INJECTION
 SQL INJECTION
-I. [What is SQL Injection?](#what-is-sql-injection)
-II. [How Does a SQL Injection Attack Work?](#how-does-a-sql-injection-attack-work)
-III. [What is the impact and action of a successful SQL injection attack?](#what-is-the-impact-and-action-of-a-successful-sql-injection-attack)
-IV. [How to detect SQL injection vulnerabilities?](#how-to-detect-sql-injection-vulnerabilities)
-V. [Types of SQL Injection Attacks?](#types-of-sql-injection-attacks)
-VI. [SQL injection examples](#sql-injection-examples)
-VII. [How to Prevent SQL Injection?](#how-to-prevent-sql-injection)
+## Table of Contents
+I. [What is SQL Injection?](#i-what-is-sql-injection)
+
+II. [How Does a SQL Injection Attack Work?](#ii-how-does-a-sql-injection-attack-work)
+
+III. [Impact and Actions of a Successful SQL Injection Attack](#iii-impact-and-actions-of-a-successful-sql-injection-attack)
+
+IV. [How to Detect SQL Injection Vulnerabilities?](#iv-how-to-detect-sql-injection-vulnerabilities)
+
+V. [Types of SQL Injection Attacks](#v-types-of-sql-injection-attacks)
+
+VI. [SQL Injection Examples](#vi-sql-injection-examples)
+
+VII. [How to Prevent SQL Injection?](#vii-how-to-prevent-sql-injection)
+
 
 ## I. What is SQL Injection?
 
