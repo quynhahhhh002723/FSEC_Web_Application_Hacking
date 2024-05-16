@@ -10,9 +10,9 @@ III. [Impact and Actions of a Successful SQL Injection Attack](#iii-impact-and-a
 IV. [How to Detect SQL Injection Vulnerabilities?](#iv-how-to-detect-sql-injection-vulnerabilities)
 
 V. [Types of SQL Injection Attacks](#v-types-of-sql-injection-attacks)
-- [Union-based SQL Injection](#union-based-sql-injection)
-   - [Error Based SQL Injection](#error-based-sql-injection)
-   - [Blind SQL Injection](#blind-sql-injection)
+  - [Union-based SQL Injection](#union-based-sql-injection)
+  - [Error Based SQL Injection](#error-based-sql-injection)
+  - [Blind SQL Injection](#blind-sql-injection)
      - [Boolean-based SQL Injection](#boolean-based-sql-injection)
      - [Time-based Blind SQL Injection](#time-based-blind-sql-injection)
    - [SQL injection attacks can also be classified by the method they use to inject data](#sql-injection-attacks-can-also-be-classified-by-the-method-they-use-to-inject-data)
