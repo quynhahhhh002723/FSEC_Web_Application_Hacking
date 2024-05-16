@@ -9,7 +9,7 @@ III. [Impact and Actions of a Successful SQL Injection Attack](#iii-impact-and-a
 
 IV. [How to Detect SQL Injection Vulnerabilities?](#iv-how-to-detect-sql-injection-vulnerabilities)
 
-V. [Types of SQL Injection Attacks](#v-types-of-sql-injection-attacks)
+V. [Common Types of SQL Injection Attacks?](#v-types-of-sql-injection-attacks)
   - [Union-based SQL Injection](#union-based-sql-injection)
   - [Error Based SQL Injection](#error-based-sql-injection)
   - [Blind SQL Injection](#blind-sql-injection)
@@ -87,7 +87,7 @@ By systematically testing each entry point in the application, you can find SQL 
 
 Tools like Burp Scanner can quickly and reliably find most SQL injection vulnerabilities. These tools automate the process, making it faster and easier compared to manual testing.
 
-## V. Types of SQL Injection Attacks
+## V. Common Types of SQL Injection Attacks?
 
 There are several types of SQL injection attacks:
 
