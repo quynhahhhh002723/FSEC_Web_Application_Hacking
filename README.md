@@ -152,12 +152,6 @@ The injected comment symbol "`--`" effectively comments out the condition "`AND 
 
 Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
 
-**Example:** Ensure that the username input only contains alphanumeric characters:
-```sql
-SELECT * FROM users WHERE username REGEXP '^[a-zA-Z0-9]+$';
-```
-Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
-
 1. **Implement Input Validation and Sanitization:** Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
    - Example: Ensure that the username input only contains alphanumeric characters:
      ```sql
