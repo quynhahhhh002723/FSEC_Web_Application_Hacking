@@ -150,8 +150,6 @@ SELECT * FROM products WHERE category = 'Gifts'--' AND released = 1;
 The injected comment symbol "`--`" effectively comments out the condition "`AND released = 1`", bypassing the requirement for the products to be released. As a result, the query retrieves all products under the category `Gifts` regardless of their release status, effectively exposing the hidden data of special deals and discounts intended only for premium users.
 ## VII. How to Prevent SQL Injection?
 
-### Implement Input Validation and Sanitization:
-
 Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
 
 **Example:** Ensure that the username input only contains alphanumeric characters:
