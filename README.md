@@ -156,8 +156,6 @@ Validate and sanitize user inputs to ensure they meet expected formats and types
 ```sql
 SELECT * FROM users WHERE username REGEXP '^[a-zA-Z0-9]+$';
 ```
-
-## Implement Input Validation and Sanitization:
 Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
 
 1. **Implement Input Validation and Sanitization:** Validate and sanitize user inputs to ensure they meet expected formats and types. Reject inputs containing suspicious characters or patterns.
