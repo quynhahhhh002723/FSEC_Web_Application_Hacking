@@ -1,10 +1,31 @@
+## Table of Contents
+
+- [I. What is Cross-site Scripting (XSS)](#i-what-is-cross-site-scripting-xss)
+- [II. What are the types of XSS Attack](#ii-what-are-the-types-of-xss-attack)
+  - [Reflected XSS](#reflected-xss)
+  - [Stored XSS](#stored-xss)
+  - [DOM-based XSS](#dom-based-xss)
+- [III. How Does Cross-Site Scripting Work?](#iii-how-does-cross-site-scripting-work)
+  - [Different cross site scripting approaches](#different-cross-site-scripting-approaches)
+- [IV. What Are the Impacts of XSS?](#iv-what-are-the-impacts-of-xss)
+- [V. How to prevent XSS](#v-how-to-prevent-xss)
+  - [Input Validation](#input-validation)
+  - [Output Encoding](#output-encoding)
+  - [Content Security Policy (CSP)](#content-security-policy-csp)
+  - [HTTP Headers](#http-headers)
+  - [Libraries and Tools](#libraries-and-tools)
+  - [Regular Security Audits](#regular-security-audits)
+  - [Here are some examples](#here-are-some-examples)
+
+
+
 ### I. What is Cross-site Scripting (XSS)
 
 **Cross-site Scripting (XSS)** is a **client-side code injection attack**, which is one of the most common attacks. The web vulnerability allows attackers to interfere with the interactions between users and an application. An XSS attack involves `injecting malicious code`; to exploit an XSS vulnerability, a hacker will insert `malicious scripts` to execute them on the client side. 
 
 **When this malicious code spreads through the web, the hacker can gain control.** Cross-site scripting vulnerabilities often allow attackers to **impersonate the victim**, **perform any actions** that the user can do, and **access any of the user's data**.
 
-For more details on the different types of XSS flaws, see: [What are the types of XSS Attack](#).
+For more details on the different types of XSS flaws, see: [What are the types of XSS Attack](#ii).
 ### II. What are the types of XSS Attack
 
 There are three main types of Cross Site Scripting attacks:
