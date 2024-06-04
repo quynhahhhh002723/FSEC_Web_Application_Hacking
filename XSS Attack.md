@@ -25,7 +25,7 @@
 
 **When this malicious code spreads through the web, the hacker can gain control.** Cross-site scripting vulnerabilities often allow attackers to **impersonate the victim**, **perform any actions** that the user can do, and **access any of the user's data**.
 
-For more details on the different types of XSS flaws, see: [What are the types of XSS Attack](#ii).
+For more details on the different types of XSS flaws, see: [What are the types of XSS Attack](#ii-what-are-the-types-of-xss-attack).
 ### II. What are the types of XSS Attack
 
 There are three main types of Cross Site Scripting attacks:
